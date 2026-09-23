@@ -53,7 +53,7 @@ def strategy():
                     "doc_id": doc["id"],
                     "field": field_type,
                     "value": value,
-                    "strategy_use": "deterministic"
+                    "strategy_used": "deterministic"
                 })
 
         for field_type in ["priority"]:
@@ -63,7 +63,7 @@ def strategy():
                     "doc_id": doc["id"],
                     "field": field_type,
                     "value": value,
-                    "strategy_use": "heuristic"
+                    "strategy_used": "heuristic"
                 })
 
         if doc["id"] in ["C", "D"]:
@@ -73,14 +73,14 @@ def strategy():
                     "doc_id": doc["id"],
                     "field": obs.type,
                     "value": obs.extract_value,
-                    "strategy_use": "semantic"
+                    "strategy_used": "semantic"
                 })
     return results
 
 def print_results(results):
     print("doc_id | field | value | strategy_used")
     for result in results:
-        print(result["doc_id"], "|", result["field"], "|", result["value"], "|", result["strategy_use"])
+        print(result["doc_id"], "|", result["field"], "|", result["value"], "|", result["strategy_used"])
 
 if __name__ == "__main__":
     results = strategy()
