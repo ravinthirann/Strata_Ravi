@@ -16,3 +16,7 @@ Contradiction :
 
 Retrieval :
     This project stores documents in a vector database and finds the most relevant one for a given question.
+
+
+Answer :
+    This project answers a question using retrieved documents and names the exact doc_id it used as a citation.
