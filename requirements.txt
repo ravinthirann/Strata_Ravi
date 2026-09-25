@@ -2,3 +2,7 @@ langchain
 langchain-groq
 pydantic
 python-dotenv
+langchain-chroma
+chromadb
+langchain-huggingface
+sentence-transformers
