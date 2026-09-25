@@ -53,4 +53,78 @@ DOCS = [
             "+91-98765-22222."
         ),
     },
+    {
+        "id": "H",
+        "source_type": "hr_policy",
+        "text": (
+            "Employees are entitled to 18 days of paid annual leave per "
+            "calendar year, which resets every January 1st."
+        ),
+    },
+    {
+        "id": "I",
+        "source_type": "hr_policy",
+        "text": "The probation period for all new hires is 90 days from their official start date.",
+    },
+    {
+        "id": "J",
+        "source_type": "hr_policy",
+        "text": (
+            "Remote work requests must be submitted to your manager at "
+            "least two weeks in advance for approval."
+        ),
+    },
+    {
+        "id": "K",
+        "source_type": "hr_policy",
+        "text": "All employees must complete the annual code-of-conduct training by the end of Q1.",
+    },
+    {
+        "id": "L",
+        "source_type": "product_description",
+        "text": (
+            "The UltraBrew 3000 coffee maker features a 12-cup glass "
+            "carafe and a programmable 24-hour timer."
+        ),
+    },
+    {
+        "id": "M",
+        "source_type": "product_description",
+        "text": (
+            "Our AeroFit wireless earbuds deliver up to 8 hours of "
+            "playback on a single charge, with a compact charging case."
+        ),
+    },
+    {
+        "id": "N",
+        "source_type": "product_description",
+        "text": (
+            "The ErgoChair Pro includes adjustable lumbar support, "
+            "breathable mesh backing, and a 5-year warranty."
+        ),
+    },
+    {
+        "id": "O",
+        "source_type": "product_description",
+        "text": (
+            "The SolarCharge power bank holds a 20,000mAh capacity and "
+            "can fully charge a smartphone about four times."
+        ),
+    },
+    {
+        "id": "P",
+        "source_type": "it_support",
+        "text": (
+            "To reset your company password, visit the IT self-service "
+            "portal and click Forgot Password."
+        ),
+    },
+    {
+        "id": "Q",
+        "source_type": "it_support",
+        "text": (
+            "VPN access requires connecting through GlobalProtect using "
+            "your employee ID and a one-time passcode."
+        ),
+    }
 ]
